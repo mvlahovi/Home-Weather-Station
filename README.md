@@ -68,7 +68,7 @@ I tried to make the price as low as possible but without loss of accuracy.
 
 ### Simple and repeatable to build
 In this version I used a graphic display with 5V power supply and with 15 control lines which I would not recommend to anyone. So I don’t give a schematic diagram.
-The display works properly, but with a complicated interface.
+The display works properly, but with a complicated interface. Future version will be simple.
 
 ## Power loss 
 Electricity goes away many times, specially during storms. Outdoor unit that is powered by a 30W solar cell and a 15 Ah battery which is enough for a few days. The indoor unit is powered by a computer 480W uninterruptible power supply UPS which is enough for a few hours.
