@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\201214-203145-arduino-blink"
+		},
+		{
+			"name": "MeteologgerV3",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"string": "cpp"
+		}
+	}
+}
