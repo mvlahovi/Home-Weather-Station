@@ -46,9 +46,9 @@ As the file on the SD card is compatible with the Cumulus monthly file, all data
 in Cumulus software itself which is free.
 
 All files can be loaded on a PC via a UDP connection by sending the appropriate commands:
-'list' - displays files and folders on the sd card
-'read /(corresponding path)' - send the appropriate file over UDP
-'send' - send real time data compatible with EasyWeatherData file.
+* 'list' - displays files and folders on the sd card
+* 'read /(corresponding path)' - send the appropriate file over UDP
+* 'send' - send real time data compatible with EasyWeatherData file.
 
 There are also some functions that take place every hour, once a day and once a month.
 The weather forecast is updated every 3 hours by calling from www.yr.no as an .xml file 
@@ -58,9 +58,6 @@ The file is parsed and the necessary data is extracted and displayed graphically
 The exact time is checked once a day from the NTP service and corrected if necessary.
 The firmware can be loaded via wireless and ArduinoOTA.
 
-Software on a PC written in python tkinter, loads data from the indoor unit via udp connection,
-processes all data, removes outliers, interpolates missing data and saves it in MySQL database.
-The software has a graphical interface with graphical display of data.
 
 ## Motivation and goals
 Before the current approach I have programed and tested other version like: AVRgcc before arduino, arduino mega32, mega2560 integrated with sd/microsd modules, etc etc etc and finally the current approach turned out to be the most effective for my goals.
@@ -135,22 +132,25 @@ First as raw data and then as a record in monthly log file compatible with the C
 
 ![Home Weather Station](https://github.com/mvlahovi/Home-Weather-Station/blob/main/Resources/OutdoorUnit2.jpg)
 
-# Python software
+## Python software
 
-Arduino module connects to an python software by UDP connection. 
+Arduino module connects to an python software on PC by UDP connection. 
+Software on a PC written in python tkinter, loads data from the indoor unit via udp connection,
+processes all data, removes outliers, interpolates missing data and saves it in MySQL database.
+The software has a graphical interface with graphical display of data.
 
 ![Home Weather Station](https://github.com/mvlahovi/Home-Weather-Station/blob/main/Resources/MeteoGUI2.jpg)
 
 
 
-# Schematics diagram
+## Schematics diagram
 
 One of the problems was that you cannot use certain GPIO when using the WiFi functionality of the ESP32. 
 Refer to RandomNerdTutorials for a lot of info on connecting peripherals to the ESP32. 
 
 
-# Author
+## Author
 * **Marinko Vlahovic** <mailto:mlahovi1@gmail.com>
 
-# Notes
+## Notes
 The project is still valid and in use. Several people around the world have implemented it successfuly and I thank those who had send me some greetings and photos about their implementation.
