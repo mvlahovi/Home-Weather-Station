@@ -153,4 +153,4 @@ Refer to RandomNerdTutorials for a lot of info on connecting peripherals to the 
 * **Marinko Vlahovic** <mlahovi1@gmail.com>
 
 ## Notes
-The project is still valid and in use. Several people around the world have implemented it successfuly and I thank those who had send me some greetings and photos about their implementation.
+The project is still valid and in use. All updates and improvements in the future will be on github.
