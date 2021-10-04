@@ -31,7 +31,7 @@ Home Weather Station  is a do-it-yourself weather station. The goal of the proje
 After simple processing of sensor data, they are continuously sent trough the nRF24L01 wireless module 
 and directional antennas, towards the indoor unit.
 
-![Home Weather Station](https://github.com/mvlahovi/Home-Weather-Station/blob/main/Resources/Slide2.jpg)
+![Home Weather Station](https://github.com/mvlahovi/Home-Weather-Station/blob/main/Resources/Slide2.JPG)
 
 The indoor unit receives data via the antenna and the nRF24L01 wireless module and refreshes the display .
 Every 15 minutes the data collected in that 15 minute period are processed and saved. 
@@ -40,7 +40,7 @@ Basic data is entered in the EEPROM for statistics and graphs and everything is 
 in the form of raw data and a monthlylog file identical to the monthly file in Cumulus software. 
 Also part of this data sends to the ThingSpeak channel.
 
-![Home Weather Station](https://github.com/mvlahovi/Home-Weather-Station/blob/main/Resources/Slide1.jpg)
+![Home Weather Station](https://github.com/mvlahovi/Home-Weather-Station/blob/main/Resources/Slide1.JPG)
 
 As the file on the SD card is compatible with the Cumulus monthly file, all data can be imported 
 in Cumulus software itself which is free.
